@@ -2572,8 +2572,15 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		justify-content: center;
+		position: relative;
 		margin: -2.5em 0 0 -2.5em;
+	}
+	.tiles .center-tile {
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+		display: block;
 	}
 
 		.tiles article {
