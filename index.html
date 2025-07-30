@@ -123,15 +123,15 @@
 
 	</div>
 
-	<!-- Scripts -->
-	 	<script>
-		fetch('/Layouts/menu.html')
+ 	<!-- Scripts -->
+ 	 	<script>
+		fetch('Layouts/menu.html')
 			.then(response => response.text())
 			.then(data => {
 				document.getElementById('menu-placeholder').outerHTML = data;
 			});
 
-		fetch('/Layouts/footer.html')
+		fetch('Layouts/footer.html')
 			.then(response => response.text())
 			.then(data => {
 				document.getElementById('footer-placeholder').outerHTML = data;
